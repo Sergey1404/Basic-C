@@ -8,7 +8,7 @@ namespace Basic_concepts_C_Sharp {
             Console.Write("Введите число n:");
             n = Convert.ToInt32(Console.ReadLine());
             result = a;
-            for (int step = 0; step < n; step++) {
+            for (int step = 1; step < n; step++) {
                 result *= a;
             }
             Console.WriteLine(result);
