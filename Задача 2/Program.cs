@@ -4,7 +4,7 @@ namespace Basic_concepts_C_Sharp {
         static void Main(string[] args) {
             String Input, Result;
             Result = "";
-            Console.Write("Введите число:");
+            Console.Write("Введите число: ");
             Input = Console.ReadLine();
             for (int Step = 0; Step < Input.Length; ++Step) {
                 if (Step == 1) {
