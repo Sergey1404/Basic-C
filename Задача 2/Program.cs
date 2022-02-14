@@ -6,7 +6,7 @@ namespace Basic_concepts_C_Sharp {
             Result = "";
             Console.Write("Введите число:");
             Input = Console.ReadLine();
-            for (int Step = 0; Step < Input.Length; Step++) {
+            for (int Step = 0; Step < Input.Length; ++Step) {
                 if (Step == 1) {
                     continue;
                 }
